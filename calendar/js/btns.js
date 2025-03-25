@@ -34,6 +34,8 @@ export function onScreenScroll() {
 export function goToScreenTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+
+  window.location.hash = '';
 }
 
 // Imports
